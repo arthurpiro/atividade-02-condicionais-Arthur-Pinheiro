@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    
+    inteiro ler, ant
+   
+    
+    escreva("escreva um algo, ")
+    leia(ler)
+
+    ant= ler-1
+    escreva("seu antecessor é = ",ant)
+      }
+}
