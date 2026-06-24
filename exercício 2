@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    real salario, horas, her
+
+    escreva("quantas horas voce trabalha ")
+    leia(salario)
+
+    escreva("quanto voganha ")
+    leia(horas)
+
+    her= salario*horas
+
+    escreva("voce recebe no mes ", her)
+  }
+}
