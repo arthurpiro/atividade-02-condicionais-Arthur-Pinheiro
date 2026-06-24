@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro ase, altura, valor
+
+    escreva("\n insira valor da base ")
+    leia(ase)
+
+    escreva("\n insia valor a altura ")
+    leia(altura)
+
+    valor= ase * altura
+    escreva("o valor do seu triagulo é ",valor)
+
+
+  }
+}
