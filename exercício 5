@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro nu, num, re
+
+    nu=10
+    num=20
+    
+    re= nu
+    nu= num
+    num= re
+
+    escreva("\n o valor A é = ", nu)
+    escreva("\n o valor B é = ", num)
+
+  }
+}
