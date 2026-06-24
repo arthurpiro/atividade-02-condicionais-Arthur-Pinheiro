@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    real carro, imposto, valorfab, custo
+
+    escreva("insira o valor do carro ")
+    leia(carro)
+     
+   
+
+    carro=1
+    imposto= carro* 0.45
+    valorfab= carro*0.28
+
+    custo= carro+imposto 0.45+valorfab 0.28
+
+    escreva("o custo final do seu carro sera ", custo)
+  }
+}
+
