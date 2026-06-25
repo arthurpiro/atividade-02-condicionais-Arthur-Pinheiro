@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    real altura
+    real peso
+
+    escreva("Digite sua altura para calcular seu peso:")
+    leia(altura)
+
+    peso= (72.7*altura) - 58
+
+    escreva("Seu peso ideal é: ", peso)
+    
+  }
+}
