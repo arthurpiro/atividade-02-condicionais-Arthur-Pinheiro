@@ -1,1 +1,12 @@
+programa {
+  funcao inicio() {
+    real cel, ferh
+    escreva("qual a temperatur EM GRAUS Fahrenheit : ") 
+    leia(ferh)
+
+    cel= 5 * ((ferh - 32) / 9)
+
+    escreva("sua temperatura em graus celsios é: ", cel)
+  }
+}
 
